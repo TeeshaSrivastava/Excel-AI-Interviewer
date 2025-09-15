@@ -1,6 +1,6 @@
 # 📜 Sample Interview Transcripts  
 **Project:** Excel AI Interviewer  
-**Author:** [Your Name]  
+**Author:** [Teesha Srivastava]  
 **Date:** September 15, 2025  
 
 These transcripts demonstrate how the mock interviewer agent conducts interviews, evaluates answers, and provides feedback.  
