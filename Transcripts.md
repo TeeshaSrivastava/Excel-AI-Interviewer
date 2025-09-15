@@ -73,6 +73,6 @@ These transcripts demonstrate how the mock interviewer agent conducts interviews
 **AI 🤖:** Interview finished! Check your summary and score below.  
 
 **Final Score:** 0 / 3  
-![Interview Screenshot]()
+![Interview Screenshot](https://github.com/TeeshaSrivastava/Excel-AI-Interviewer/blob/main/Screenshot%20(59).png)
 
 ---
