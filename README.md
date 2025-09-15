@@ -1,69 +1,43 @@
-# React + TypeScript + Vite
+# 📊 Excel AI Interviewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **AI-powered mock interviewer** that simulates a structured interview for Excel skills.  
+The system asks questions, evaluates responses, provides feedback, and generates a performance summary.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 [Try the deployed app on StackBlitz](https://stackblitz.com/edit/vitejs-vite-nndvebsu?file=src%2FApp.tsx)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Deliverables
+- ✅ **Design Document & Approach Strategy** → [DESIGN_DOC.md](./DESIGN_DOC.md)  
+- ✅ **Sample Interview Transcripts** → [TRANSCRIPTS.md](./TRANSCRIPTS.md)  
+- ✅ **Complete Runnable Source Code** (Excel-AI-Interviewer)  
+- ✅ **Deployed Proof-of-Concept** (https://stackblitz.com/edit/vitejs-vite-nndvebsu?file=src%2FApp.tsx)  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ⚙️ Tech Stack
+- **React + Vite** → fast, modern frontend framework  
+- **TypeScript** → strong typing for reliability  
+- **StackBlitz** → instant cloud IDE & deployment  
+- **GitHub** → version control and deliverable sharing  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧭 Features
+- 🤖 Structured multi-turn interview flow  
+- 📝 Intelligent answer evaluation (keyword-based)  
+- 💡 Feedback & tips for incorrect answers  
+- 📊 Score tracking & final summary report  
+- 🔄 Restart option for repeated practice  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📦 Installation & Running Locally
+
+1. Clone the repository:Excel-AI-Interviewer
+   ```bash
+   git clone https://github.com/TeeshaSrivastava/Excel-AI-Interviewer
+   cd Excel-AI-Interviewer
