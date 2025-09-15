@@ -12,7 +12,7 @@ The system asks questions, evaluates responses, provides feedback, and generates
 
 ## 📂 Deliverables
 - ✅ **Design Document & Approach Strategy** → [DESIGN_DOC.md](./DESIGN_DOC.md)  
-- ✅ **Sample Interview Transcripts** → [Transcripts.md](./TRANSCRIPTS.md)  
+- ✅ **Sample Interview Transcripts** → [Transcripts.md](./Transcripts.md)  
 - ✅ **Complete Runnable Source Code** (Excel-AI-Interviewer)  
 - ✅ **Deployed Proof-of-Concept** (https://stackblitz.com/edit/vitejs-vite-nndvebsu?file=src%2FApp.tsx)  
 
