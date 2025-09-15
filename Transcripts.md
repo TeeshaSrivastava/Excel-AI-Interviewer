@@ -70,9 +70,10 @@ These transcripts demonstrate how the mock interviewer agent conducts interviews
 **User 👩‍💻:** VLOOKUP is used for graphing.  
 **AI 🤖:** Incorrect. Tip: VLOOKUP searches for a value in a column and returns a corresponding value.  
 
-**AI 🤖:** Interview finished! Check your summary and score below.  
+**AI 🤖:** Interview finished! Check your summary and score below.   
 
 **Final Score:** 0 / 3  
 ![Interview Screenshot](https://github.com/TeeshaSrivastava/Excel-AI-Interviewer/blob/main/Screenshot%20(59).png)
-
+![Interview Screenshot](https://github.com/TeeshaSrivastava/Excel-AI-Interviewer/blob/main/Screenshot%20(60).png)
+![Interview Screenshot](https://github.com/TeeshaSrivastava/Excel-AI-Interviewer/blob/main/Screenshot%20(61).png)
 ---
